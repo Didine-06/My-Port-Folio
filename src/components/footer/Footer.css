@@ -1,0 +1,6 @@
+.bottom p{
+    align-items: center;
+    text-align: center;
+    letter-spacing: 2px;
+    color: var(--title);
+}

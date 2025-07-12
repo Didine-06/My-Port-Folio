@@ -1,0 +1,178 @@
+section .left-box .flex img {
+
+
+    width: 140px;
+    height: 140px;
+    border-radius: 50%;
+    box-shadow: 1px 1px 30px var(--img);
+}
+
+section .left-box .flex {
+    margin-bottom: 2rem;
+}
+
+section .left-box .block h1 {
+    color: var(--title);
+}
+
+section .left-box .flex p {
+    color: var(--title);
+}
+
+section .left-box .block p {
+    font-size: 15px;
+    color: var(--subtitle);
+    padding: 1rem 0rem;
+}
+
+section .left-box {
+    flex-grow: 1;
+
+}
+
+section .left-box .flex p {
+    margin-top: 115px;
+    margin-left: 5px;
+    font-weight: 700;
+    font-size: 20px;
+}
+
+
+
+section .right-box {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+section .myCv {
+    all: unset;
+    margin-right: 5px;
+    margin-top: 10px;
+    border: 1px solid rgba(204, 86, 73, 0.864);
+    background-color: var(--btn);
+    font-size: 12px;
+    padding: 0.7rem 0.8rem;
+    border-radius: 10px;
+    box-shadow: 1px 1px 20px rgba(118, 118, 118, 0.108);
+    transition: 0.4s;
+}
+
+section .myCv:hover {
+
+    border: 1px solid rgba(250, 128, 114, 0.296);
+    letter-spacing: 1.4px;
+    cursor: pointer;
+    transition: 0.6s;
+}
+
+.btn-section {
+    display: flex;
+    align-items: start;
+    justify-content: start;
+    gap: 10px;
+}
+
+/* Styles pour les icônes GitHub et LinkedIn */
+section .btn-section:last-child {
+    margin-top: 15px;
+    display: flex;
+    gap: 15px;
+    align-items: center;
+}
+
+section .btn-section a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: transparent;
+    border: 2px solid var(--border);
+    color: var(--title);
+    font-size: 20px;
+    transition: all 0.3s ease;
+    text-decoration: none;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+section .btn-section a:hover {
+    background-color: var(--btn-hover);
+    border-color: var(--bleu);
+    color: var(--bleu);
+    transform: translateY(-2px);
+    box-shadow: 0 4px 20px rgba(75, 176, 244, 0.3);
+    transition: all 0.3s ease;
+}
+
+section .btn-section a:focus {
+    outline: none;
+    background-color: var(--btn-hover);
+    border-color: var(--bleu);
+    color: var(--bleu);
+    transform: scale(1.1);
+    box-shadow: 0 0 0 3px rgba(75, 176, 244, 0.2);
+}
+
+section .btn-section a:active {
+    transform: scale(0.95);
+    transition: transform 0.1s ease;
+}
+
+/* Animation pour les icônes */
+section .btn-section a svg {
+    transition: transform 0.3s ease;
+}
+
+section .btn-section a:hover svg {
+    transform: scale(1.2);
+}
+
+
+
+
+@media(max-width:900px) {
+    .right-box {
+        display: none;
+    }
+
+    .left-box {
+        text-align: center;
+    }
+
+    section .left-box .flex img {
+        width: 180px;
+        height: 180px;
+
+    }
+
+    .left-box .flex {
+        display: block;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .btn-section {
+        align-items: center;
+        justify-content: Center;
+        gap: 5px;
+    }
+
+    section .left-box .flex p {
+        margin-top: 15px;
+        margin-left: 5px;
+        font-weight: 700;
+        font-size: 20px;
+    }
+
+    .left-box .block h1 {
+        font-size: 17px;
+        margin: auto;
+    }
+
+    section .right-box {
+        display: none;
+    }
+}

@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap');
+
+
+
+:root{
+    
+    --bg-secondary: rgb(15, 15, 43);
+    --border: rgba(63, 63, 70, 0.4);
+    --title:rgb(244 244 245);
+    --subtitle:rgb(161 161 170);
+    --bg-header:rgba(19, 19, 80, 0.674);
+    --bleu:rgb(75, 176, 244);
+    --img:rgba(129, 23, 236, 0.496);
+    --btn-hover:rgba(55, 57, 125, 0.484);
+}
+html{box-sizing: border-box;}
+*, *::before, *:after{box-sizing: inherit;}
+
+*{
+    
+    margin: 0;
+    padding: 0;
+}
+.border{
+    border: 1px solid red;
+}
+
+.light{
+    --bg-secondary: rgb(255, 255, 255);
+    --border: rgba(0, 0, 0, 0.4);
+    --title:rgb(0, 0, 0);
+    --subtitle:rgb(69, 69, 69);
+    --bg-header:rgb(216, 216, 216);
+    --bleu:rgb(10, 104, 255);
+    --btn-hover:rgba(51, 0, 255, 0.5);
+    --btn:rgb(67, 67, 67);
+    --img:rgba(157, 0, 255, 0.393);
+}
+body{
+    font-family: "Roboto", sans-serif;
+    background-color: var(--bg-primary);
+}
+.Container{
+    
+    color: rgb(255, 255, 255);
+    background-color: var(--bg-secondary);
+   
+    
+    padding: 1rem 5rem;
+    transition: 0.8s;
+    
+}
+.Separateur{
+    border-bottom: 1px solid var(--border);
+    margin: 1rem 0;
+}
+.flex{
+    display: flex;
+}
+button{
+    cursor: pointer;
+    all: unset;
+}
+li{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+    color: initial;
+    transition: 0.4s;
+}
+
+.Arrow .btn{
+    border: none;
+    outline: none;
+    position: fixed;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 2.1rem;
+    height: 2.1rem;
+    border-radius: 50%;
+    bottom: 2rem;
+    right: 1%;
+    font-size: 1.3rem;
+    background: var(--bleu);  
+}
+.icon-adjust{
+    color: rgb(0, 0, 0) !important;
+}
+
+@media(max-width:700px){
+    .Container{
+        padding: 1rem 1rem;
+    }
+}
