@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/My-Port-Folio/static/css/main.472f5ca9.css",
+    "main.js": "/My-Port-Folio/static/js/main.7a03aa85.js",
+    "static/media/Acceuil.png": "/My-Port-Folio/static/media/Acceuil.36c0bda035313d2e5071.png",
+    "static/media/menu.png": "/My-Port-Folio/static/media/menu.3aae69148679db832658.png",
+    "static/media/LogIn.png": "/My-Port-Folio/static/media/LogIn.5c98d0a6c04c8d0f7ddb.png",
+    "static/media/GénérationConflict.png": "/My-Port-Folio/static/media/GénérationConflict.d9ba1f356c796c28fe73.png",
+    "static/media/EmploisTemps.png": "/My-Port-Folio/static/media/EmploisTemps.dc9eab338dfbde1de532.png",
+    "static/media/Picture.jpg": "/My-Port-Folio/static/media/Picture.2115cfe4ed83e966fce6.jpg",
+    "static/media/AdminDashboard.png": "/My-Port-Folio/static/media/AdminDashboard.84686831c1c3a35bd39f.png",
+    "index.html": "/My-Port-Folio/index.html",
+    "main.472f5ca9.css.map": "/My-Port-Folio/static/css/main.472f5ca9.css.map",
+    "main.7a03aa85.js.map": "/My-Port-Folio/static/js/main.7a03aa85.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.472f5ca9.css",
+    "static/js/main.7a03aa85.js"
+  ]
+}

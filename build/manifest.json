@@ -1,0 +1,21 @@
+{
+  "short_name": "Nordine Portfolio",
+  "name": "Portfolio de Nordine Benidiri - Développeur Full-Stack",
+  "icons": [
+    {
+      "src": "favicon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml"
+    },
+    {
+      "src": "favicon.ico",
+      "sizes": "64x64 32x32 24x24 16x16",
+      "type": "image/x-icon"
+    }
+  ],
+  "start_url": ".",
+  "display": "standalone",
+  "theme_color": "#4BB0F4",
+  "background_color": "#0F0F2B",
+  "description": "Portfolio professionnel de Nordine Benidiri, développeur Full-Stack et ingénieur logiciel spécialisé en React, Node.js et technologies web modernes."
+}
